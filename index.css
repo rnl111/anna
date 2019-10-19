@@ -1,4 +1,12 @@
 @charset "utf-8";
+video#bgvid {
+        position: fixed; right: 0; bottom: 0;
+        min-width: 100%; min-height: 100%;
+        width: auto; height: auto; z-index: -100;
+        background: url('anna_main1.mp4') no-repeat;
+        background-size: cover;
+}
+
 .sr {
   width: 240px;
   height: 604px;
@@ -13,7 +21,7 @@
 .box3:hover {background-image: url('a3.png');}
 .findannabotton {position: absolute; z-index: 3;  left:866px; top:3020px;}
 .buybotton {position: absolute; z-index: 3;  left:275px; top:823px;}
-
+.oo {display: none;}
 
 
 body {  width:1800px; background: url(); margin: 0;}
